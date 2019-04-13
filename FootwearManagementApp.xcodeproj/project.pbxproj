@@ -12,6 +12,11 @@
 		2CFE2B622261F70700AEF14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2B602261F70700AEF14A /* Main.storyboard */; };
 		2CFE2B642261F70900AEF14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2B632261F70900AEF14A /* Assets.xcassets */; };
 		2CFE2B672261F70900AEF14A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2B652261F70900AEF14A /* LaunchScreen.storyboard */; };
+		2CFE2B702261F84600AEF14A /* FootwearModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2B6E2261F84600AEF14A /* FootwearModel.xcdatamodeld */; };
+		2CFE2B7B2261FE7300AEF14A /* Footwear+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2B792261FE7300AEF14A /* Footwear+CoreDataClass.swift */; };
+		2CFE2B7C2261FE7300AEF14A /* Footwear+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2B7A2261FE7300AEF14A /* Footwear+CoreDataProperties.swift */; };
+		2CFE2B7D2262017600AEF14A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2B682261F70900AEF14A /* Info.plist */; };
+		2CFE2B7F226202F400AEF14A /* SampleFootwear.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2B7E226202F400AEF14A /* SampleFootwear.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,10 @@
 		2CFE2B632261F70900AEF14A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFE2B662261F70900AEF14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CFE2B682261F70900AEF14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFE2B6F2261F84600AEF14A /* FootwearModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FootwearModel.xcdatamodel; sourceTree = "<group>"; };
+		2CFE2B792261FE7300AEF14A /* Footwear+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Footwear+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2CFE2B7A2261FE7300AEF14A /* Footwear+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Footwear+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2CFE2B7E226202F400AEF14A /* SampleFootwear.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SampleFootwear.plist; path = FootwearManagementApp/SampleFootwear.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,7 @@
 		2CFE2B502261F70700AEF14A = {
 			isa = PBXGroup;
 			children = (
+				2CFE2B7E226202F400AEF14A /* SampleFootwear.plist */,
 				2CFE2B5B2261F70700AEF14A /* FootwearManagementApp */,
 				2CFE2B5A2261F70700AEF14A /* Products */,
 			);
@@ -54,12 +64,15 @@
 		2CFE2B5B2261F70700AEF14A /* FootwearManagementApp */ = {
 			isa = PBXGroup;
 			children = (
+				2CFE2B792261FE7300AEF14A /* Footwear+CoreDataClass.swift */,
+				2CFE2B7A2261FE7300AEF14A /* Footwear+CoreDataProperties.swift */,
 				2CFE2B5C2261F70700AEF14A /* AppDelegate.swift */,
 				2CFE2B5E2261F70700AEF14A /* ViewController.swift */,
 				2CFE2B602261F70700AEF14A /* Main.storyboard */,
 				2CFE2B632261F70900AEF14A /* Assets.xcassets */,
 				2CFE2B652261F70900AEF14A /* LaunchScreen.storyboard */,
 				2CFE2B682261F70900AEF14A /* Info.plist */,
+				2CFE2B6E2261F84600AEF14A /* FootwearModel.xcdatamodeld */,
 			);
 			path = FootwearManagementApp;
 			sourceTree = "<group>";
@@ -122,6 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE2B7F226202F400AEF14A /* SampleFootwear.plist in Resources */,
+				2CFE2B7D2262017600AEF14A /* Info.plist in Resources */,
 				2CFE2B672261F70900AEF14A /* LaunchScreen.storyboard in Resources */,
 				2CFE2B642261F70900AEF14A /* Assets.xcassets in Resources */,
 				2CFE2B622261F70700AEF14A /* Main.storyboard in Resources */,
@@ -136,6 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFE2B5F2261F70700AEF14A /* ViewController.swift in Sources */,
+				2CFE2B7C2261FE7300AEF14A /* Footwear+CoreDataProperties.swift in Sources */,
+				2CFE2B702261F84600AEF14A /* FootwearModel.xcdatamodeld in Sources */,
+				2CFE2B7B2261FE7300AEF14A /* Footwear+CoreDataClass.swift in Sources */,
 				2CFE2B5D2261F70700AEF14A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +354,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CFE2B6E2261F84600AEF14A /* FootwearModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CFE2B6F2261F84600AEF14A /* FootwearModel.xcdatamodel */,
+			);
+			currentVersion = 2CFE2B6F2261F84600AEF14A /* FootwearModel.xcdatamodel */;
+			path = FootwearModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2CFE2B512261F70700AEF14A /* Project object */;
 }
